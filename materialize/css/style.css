@@ -1,0 +1,21 @@
+
+/* Removi a div.col por que ia dar conflito com o carousel */
+
+.brand-logo img{
+    width: 70px;
+}
+
+/* descer footer */
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
+
+    body {
+        background: #F0544F;
+    }
