@@ -1,5 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Koulen&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap');
 /* Removi a div.col por que ia dar conflito com o carousel */
+
 
 .brand-logo img{
     width: 70px;
@@ -19,3 +20,20 @@
     body {
         background: #F0544F;
     }
+
+    .card-image img{
+        height: 200px! important;
+    }
+
+    .listaC {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .cabeca label{
+       color:  #f9a825;
+       font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    }
+
+    
